@@ -104,12 +104,11 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-8">
+          <div className="mt-8 flex justify-center">
             <audio
               src="/song.mp3"
               controls
               loop
-              className="w-full max-w-md"
             />
           </div>
         </div>
