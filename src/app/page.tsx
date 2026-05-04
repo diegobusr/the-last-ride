@@ -104,12 +104,14 @@ export default function Home() {
             </p>
           </div>
 
-          <audio
-            src="/song.mp3"
-            autoPlay
-            loop
-            className="hidden"
-          />
+          <div className="mt-8">
+            <audio
+              src="/song.mp3"
+              controls
+              loop
+              className="w-full max-w-md"
+            />
+          </div>
         </div>
       </div>
     </div>
