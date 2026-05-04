@@ -103,6 +103,16 @@ export default function Home() {
               Prepárate para la mejor noche de tu vida
             </p>
           </div>
+
+          <div className="mt-12 w-full max-w-2xl mx-auto">
+            <iframe
+              className="w-full aspect-video rounded-xl"
+              src="https://www.youtube.com/embed/xV82y5Yn6t0"
+              title="la mamá de la mamá ⁠♡ (slowed + reverb)"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div>
         </div>
       </div>
     </div>
